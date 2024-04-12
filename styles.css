@@ -419,13 +419,14 @@ body{
       border-radius: .5cap;
       width: 30rem;
       height: 20rem;
-      box-shadow: 2px 2px 5px #9a3821;
+      box-shadow: 2px 2px 5px #e1aca0;
       @media (max-width:1000px) {
           width: 100%;
       }
 
       h3{
           font-size: 2.5rem;
+          line-height: 45px;
           font-weight: 400;
           @media (max-width:1000px) {
               font-size: 2rem;
@@ -449,7 +450,7 @@ body{
   }
 
   .tar-2{
-      background-color: #ff9100;
+      background-color: var(--naranja);
       color: white;
       h3{
           font-size: 2.2rem;
@@ -457,12 +458,12 @@ body{
   }
 
   .tar-3{
-      background-color:#ff9100;
+      background-color:#ffae00;
       color:white;
   }
 
   .tar-4{
-      background-color: #fffdfd;
+      background-color: #ffffff;
       color: #ff9100;
   }
 
