@@ -343,8 +343,9 @@ body{
 
 /* tercer div */
 .tercer-div{
+  
   padding: 10rem 2rem;
-  background-color: #f0ebebd0;
+  background-color: #f3f0f0a4;
   @media (max-width:500px) {
       padding: 5rem 1rem;
   }
