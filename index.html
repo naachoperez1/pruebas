@@ -24,6 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
 </head>
@@ -40,45 +41,79 @@
 
   </nav>
   
-  <section class="showcase">
+  <div class="showcase">
 
-    <video src="imagenes/neuquen.mp4" muted loop autoplay></video>
-
-    <div class="text">
-      <h3>Tu proximo hogar te espera en </h3> 
-      <h2>Grupo Inhaut</h2>
-      
-      <a href="#">Sumate</a>
+    <div class="info-container">
+      <h3>Tu próxima propiedad está en Grupo Inhaut </h3> 
+      <h2>Las mejores oportunidades inmobiliarias</h2>
+      <div class="buscador-container">
+        <div class="alquiler-venta">
+          <a href="#" class="link-alquiler">Alquiler</a>
+          <a href="#" class="link-venta">Venta</a>
+        </div>
+        <div class="buscador">
+          <div class="dropup-center dropup">
+            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tipos de propiedad
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Action two</a></li>
+              <li><a class="dropdown-item" href="#">Action three</a></li>
+            </ul>
+          </div>
+          <div class="dropup-center dropup">
+            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ambientes
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Action two</a></li>
+              <li><a class="dropdown-item" href="#">Action three</a></li>
+            </ul>
+          </div>
+          <div class="dropup-center dropup">
+            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Zonas
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Action two</a></li>
+              <li><a class="dropdown-item" href="#">Action three</a></li>
+            </ul>
+          </div>
+          <button type="button" class="btn  buscar">Buscar</button>
+        </div>
+      </div>
     </div>
+    <video muted loop autoplay>
+      <source src="imagenes/neuquen.mp4" type="video/mp4">
+    </video>
 
-    <ul class="social">
-      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
-    </ul>
-  </section>
 
-  <div class="primer-div">
+  </div>
+
+  <div class="primer-div ">
     <div class="contenedor-primer-div">
       <div class="texto">
         <h3 class="texto-primer-div">
-          Como podemos ayudarte?
+          Como podemos <br> ayudarte?
         </h3>
-        <a href="#" class="link-primer-div">Explora nuestras propiedades</a>
+        <a href="#" class="link-primer-div">Explora nuestras propiedades > </a>
       </div>
 
       <div class="opciones-contenedor">
         <div class="opcion">
           <img class="imagen-opcion" src="imagenes/house-medical-check-svgrepo-com.svg" alt="">
-          <p class="texto-opcion">Comprar</p>
+          <p class="texto-opcion">Comprar una propiedad</p>
         </div>
         <div class="opcion">
           <img class="imagen-opcion" src="imagenes/house-building-svgrepo-com.svg" alt="">
-          <p class="texto-opcion">Alquilar</p>
+          <p class="texto-opcion">Alquilar una propiedad</p>
         </div>
         <div class="opcion">
           <img class="imagen-opcion" src="imagenes/briefcase-dollar-svgrepo-com.svg" alt="">
-          <p class="texto-opcion">Tasar</p>
+          <p class="texto-opcion">Tasar una propiedad</p>
         </div>
       </div>
     </div>
@@ -91,6 +126,28 @@
       <h3 class="texto-tercer-div fadein">Te espera un equipo formado <br> por los mejores profesionales.</h3>
       <img src="imagenes/cohete.webp" alt class="cohete fadein-cohete">
     </div>
+  </div>
+
+
+  <!-- septimo div -->
+  <div class="septimo-div ">
+
+    <h3 class="texto-septimo-div fadein">Tenes una inmobiliaria y queres <br> darle un salto de calidad?</h3>
+
+    <div class="grid-tarjetas">
+
+      <div class="columna1">
+        <div class="tarjeta tar-1 fadein-izquierda"><h3>Emprendé con nosotros &#129321</h3><p>Crecé como corredor inmobiliario, aumentando tus posibilidades.</p></div>
+        <div class="tarjeta tar-2 fadein-izquierda"><h3>Unite a nuestro sistema de trabajo &#128170;</h3><p>Aprende nuestros procesos, y accede a nuestras herramientas premium.</p></div>
+      </div>
+
+      <div class="columna2">
+        <div class="tarjeta tar-3 fadein-derecha"><h3>Seleccioná a tu agente &#129488;</h3><p>Te ayudamos a que puedas identificar a un posible agente emprendedor exitoso.</p></div>
+        <div class="tarjeta tar-4 fadein-derecha"><h3>Aumentá tus consultas &#128200;</h3><p>Tu cartera de propiedades con la mayor exposicion, en los mejores portales.</p></div>
+      </div>
+
+    </div>
+
   </div>
 
 
