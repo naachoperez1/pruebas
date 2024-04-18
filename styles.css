@@ -123,7 +123,7 @@ body{
 
 .info-container h2
 {
-  font-size: 3.5em;
+  font-size: 3em;
   color: var(--naranja);
   line-height: 1.6em;
   @media (max-width: 760px) {
@@ -150,7 +150,7 @@ body{
   top: 50px;
   display: flex;
   flex-direction: column;
-  width: 100vh;
+  width: fit-content;
   margin: 0 auto;
 
   
@@ -179,7 +179,7 @@ body{
 .buscador{
   background-color: #fff;
   display: flex;
-  justify-content: space-between;
+  gap: 1rem;
   align-items: center;
   padding: .5rem ;
   border-radius:.5cap;
@@ -198,6 +198,13 @@ body{
   color: white;
   padding: .5rem 1rem ;
 }
+
+.buscador .vender{
+  background-color:#ff9100;
+  color: white;
+  padding: .5rem 1rem ;
+}
+
 
 
 
@@ -434,7 +441,7 @@ body{
 /* tercer div */
 .tercer-div{
   
-  padding: 10rem 2rem;
+  padding: 5rem 1rem;
   background-color: var(--naranja);
   @media (max-width:500px) {
       padding: 5rem 1rem;
@@ -447,14 +454,11 @@ body{
   align-items: center;
   text-align: center;
   gap: 2rem;
-  @media (max-width:500px) {
-      gap: 2rem;
-  }
 }
 
 .texto-tercer-div{
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
   @media (max-width:500px) {
       font-size: 2rem;
@@ -463,9 +467,9 @@ body{
 }
 
 .cohete{
-  width: 25rem;
+  width: 20rem;
   @media (max-width:500px) {
-      width: 20rem;
+      width: 15rem;
   }
 }
 
@@ -482,7 +486,7 @@ body{
   .texto-septimo-div{
       margin: 3rem 0;
       color: var(--naranja);
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 400;
       text-align: center;
       @media (max-width:1000px) {
@@ -502,10 +506,11 @@ body{
   }
 
   .tarjeta{
-      text-align: left;
-      margin-top: 2rem;
-      margin: 1rem;
-      padding: 5rem 2rem;
+      text-align:center;
+      align-content: center;
+      margin: 2rem 1rem;
+      line-height: normal;
+      padding: 1rem;
       border-radius: .5cap;
       width: 30rem;
       height: 20rem;
@@ -516,28 +521,21 @@ body{
       }
 
       h3{
-          font-size: 2.5rem;
-          line-height: 45px;
-          font-weight: 400;
+          font-size: 2rem;
+          font-weight: 500;
           @media (max-width:1000px) {
-              font-size: 2rem;
+              font-size: 1.5rem;
           }
-          @media (max-width:450px) {
-            font-size: 1.5rem ;
-            
-          }
+
           
       }
       p{
           font-size: 1.2rem;
           font-weight: 300;
           @media (max-width:1000px) {
-              font-size: 1.2rem;
+              font-size: 1rem;
           }
-          @media (max-width:450px) {
-            font-size: 1rem ;
-            
-          }
+
       }
   }
 
@@ -571,6 +569,38 @@ body{
   }
 
   
+}
+
+/* parallax */
+
+
+.parallax {
+  background-image: url(imagenes/casa.jpg);
+
+  /* Set a specific height */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  
+}
+
+
+.info-seccion{
+  margin: 50% 10%;
+  text-align: center;
+  color: white;
+}
+
+.titulo-seccion{
+  font-size: 3.5rem;
+}
+
+.texto-seccion{
+  font-size: 1.5rem;
 }
 
 
