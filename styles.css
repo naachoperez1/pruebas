@@ -593,10 +593,11 @@ body{
   margin: 50% 10%;
   text-align: center;
   color: white;
+  font-weight: 600;
 }
 
 .titulo-seccion{
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .texto-seccion{
