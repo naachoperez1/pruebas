@@ -625,6 +625,63 @@ body{
 
 
 
+/* portales premium */
+.portales-premium-contenedor{
+  padding: 5%;
+  
+}
+.portales-premium{
+  display: flex;
+  justify-content: space-evenly;
+  @media (max-width:800px) {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  p{
+    text-align: center;
+    color: var(--grisOscuro);
+    margin: 5%;
+    @media (max-width:800px) {
+      display: none;
+    }
+
+  }
+}
+
+.portales-premium-titulo{
+  text-align: center;
+  color: var(--naranja);
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+.portal{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  @media (max-width:800px) {
+    margin: 10% 0;
+    
+  }
+}
+
+.portal-logo{
+  width: 60%;
+  height: 50%;
+
+  @media (max-width:800px) {
+    margin: 10% 0;
+    width: 80%;
+    height: 70%;
+  }
+}
+
+
+
 
 
 
@@ -632,7 +689,7 @@ body{
 .footer{
   padding: 1rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   background-color: #F8F8F8;
   color:var(--naranja);
