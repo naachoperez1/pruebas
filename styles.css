@@ -575,7 +575,7 @@ body{
 
 
 .parallax {
-  background-image: url(imagenes/casa.jpg);
+  background-image: url(imagenes/casa3-oscura.jpeg);
 
   /* Set a specific height */
 
@@ -588,20 +588,38 @@ body{
   
 }
 
-
-.info-seccion{
-  margin: 50% 10%;
-  text-align: center;
-  color: white;
-  font-weight: 600;
+.casa{
+  width: 40%;
+  border-radius: .5cap;
+  @media (max-width:800px) {
+    width: 80%;
+  }
 }
 
+.info-seccion{
+  display: flex;
+  margin: 20% 10%;
+  align-items: center;
+  color: #ff9100;
+  gap: 5%;
+  @media (max-width:800px) {
+    flex-direction: column;
+  }
+}
+
+
 .titulo-seccion{
-  font-size: 3rem;
+  font-size: 3.5rem;
+  @media (max-width:800px) {
+    font-size: 1.5rem;
+  }
 }
 
 .texto-seccion{
   font-size: 1.5rem;
+  @media (max-width:800px) {
+    font-size: 1rem;
+  }
 }
 
 
