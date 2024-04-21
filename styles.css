@@ -628,6 +628,7 @@ body{
 /* portales premium */
 .portales-premium-contenedor{
   padding: 5%;
+  background-color: var(--grisClaro);
   
 }
 .portales-premium{
