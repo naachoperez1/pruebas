@@ -964,7 +964,7 @@ body{
   height: 500px;
   border-radius: 1cap;
   box-shadow: 0 5px 20px 5px #a7a7a7;
-  z-index: -5;
+  z-index: 1;
 }
 
 
