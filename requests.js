@@ -4,7 +4,7 @@ let arregloCasas = []
 
 // Funcion que devuelve un arreglo de 20 propiedades de la API.
 async function obtenerArrayCasas(offset) {
-  let apiUrl = "http://www.tokkobroker.com/api/v1/property/?format=json&key=2050ca99758e888787396e78be54b6216b1bb34d&lang=es_ar&offset={offset}&limit=106"
+  let apiUrl = "https://www.tokkobroker.com/api/v1/property/?format=json&key=2050ca99758e888787396e78be54b6216b1bb34d&lang=es_ar&offset={offset}&limit=106"
   .replace("{offset}", offset);
   // offset += 20;
   try {
